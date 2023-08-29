@@ -12,7 +12,8 @@
 
 int main(void)
 {
-///First main() asks user if he wants to run tests, if user prints 'y', then main() runs alltests();
+///First main() asks user if he wants to run tests, if user prints 'y',
+///then main() runs alltests();
   printf("Тест хотите? [y/N] ");
   int ans = getchar();
   if(ans == 'y')
@@ -20,7 +21,8 @@ int main(void)
     alltests();
   }
 
-///if user presses any other button, main() proceedes by recieving coefficents of the equasion.
+///if user presses any other button, main() proceedes
+///by recieving coefficents of the equasion.
   double a = 0;
   double b = 0;
   double c = 0;
@@ -37,8 +39,9 @@ int main(void)
     }
     printf("a, b, c: ");
   }
-///As we all know, scanf() returns number of succsesfully recieved numbers, so in case user
-///inputs something incorrectly main() will print incorrect input message and wait for user to press enter.
+///As we all know, scanf() returns number of succsesfully recieved numbers,
+///so in case user inputs something incorrectly main() will print incorrect
+///input message and wait for user to press enter.
 ///When he does, main() will recieve his input again.
   enum ROOT_number root_number = solve(a, b, c, &k1, &k2);
 

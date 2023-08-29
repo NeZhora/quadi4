@@ -4,8 +4,10 @@
 #include "common.h"
 
 ///@brief This function outputs roots, calculated by solve().
-///@param output() recieves k1, k2 and ROOT_number (see common.h) nroots that came out of solve(). (see solver())
-///@return output() returns 0, when it completes the job. The job itself is outputing roots of the equasion.
+///@param double k1 and k2 outputed by solve().
+///@param ROOT_number nroots returned by solve().
+///@return output() returns 0, when it completes the job.
+///The job itself is outputing roots of the equation.
 /*********************************************************************************//**
 *@return Depending on nroots function output() outputs:
 *@return -Just k1 in case nroots is ONE_root
