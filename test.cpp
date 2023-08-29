@@ -36,7 +36,7 @@ int alltests(void)
   num_secc += test1( 7, 89,  7,  -6.35714286, 6.27799851,   TWO_roots);
   num_secc += test1(78, 78,  7,  -0.5,        0.40032039,   TWO_roots);
 
-  printf("%d из 8 тестов успешны\n", num_secc);
+  printf("%d РёР· 8 С‚РµСЃС‚РѕРІ СѓСЃРїРµС€РЅС‹\n", num_secc);
   return 0;
 }
 
