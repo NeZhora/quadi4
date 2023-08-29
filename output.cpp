@@ -17,13 +17,13 @@ int output(double k1, double k2, enum ROOT_number nroots)
   switch(nroots)
   {
     case INFINITE_roots:
-      printf("x - любое\n");
+      printf("x - Р»СЋР±РѕРµ\n");
       break;
     case ONE_root:
       printf("x = %lf\n", k1);
       break;
     case NONE_roots:
-      printf("Корней нет");
+      printf("РљРѕСЂРЅРµР№ РЅРµС‚");
       break;
     case TWO_roots:
       printf("x1 = %lf \n", k1+k2);
