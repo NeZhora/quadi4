@@ -14,7 +14,7 @@ int main(void)
 {
 ///First main() asks user if he wants to run tests, if user prints 'y',
 ///then main() runs alltests();
-  printf("Тест хотите? [y/N] ");
+  printf("Г’ГҐГ±ГІ ГµГ®ГІГЁГІГҐ? [y/N] ");
   int ans = getchar();
   if(ans == 'y')
   {
@@ -22,7 +22,7 @@ int main(void)
   }
 
 ///if user presses any other button, main() proceedes
-///by recieving coefficents of the equasion.
+///by recieving coefficents of the equation.
   double a = 0;
   double b = 0;
   double c = 0;
@@ -33,7 +33,7 @@ int main(void)
   printf("a, b, c: ");
   while(scanf("%lf %lf %lf", &a, &b, &c) != 3)
   {
-    printf("Неправильный ввод! повтоpите попытку\n");
+    printf("РќРµРєРѕСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ! Р’РІРµРґРёС‚Рµ СЃРЅРѕРІР°\n");
     while(getchar() != '\n')
     {
     }
