@@ -14,7 +14,7 @@ int main(void)
 {
 ///First main() asks user if he wants to run tests, if user prints 'y',
 ///then main() runs alltests();
-  printf("Òåñò õîòèòå? [y/N] ");
+  printf("Тестов хотите? [y/N] ");
   int ans = getchar();
   if(ans == 'y')
   {
